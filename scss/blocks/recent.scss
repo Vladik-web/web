@@ -10,7 +10,10 @@
         }
         &__photo img{
             width: 100%;
-
+            transition: ease .5s;
+        }
+        &__photo img:hover{
+            transform:scale(1.05);
         }
         &__right{ 
             padding: 40px 0 0 70px;

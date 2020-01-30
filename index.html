@@ -7,6 +7,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,900,900i|Playfair+Display:400,400i&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <title>Lending</title>
 </head>
 <body>
@@ -24,7 +29,7 @@
     </div>
     <div class="header-wrapper">
         <div class="header-item">
-            <div class="header-item__text">Long Beach Surfing Institute</div>
+            <div class="header-item__text wow bounceInUp">Long Beach Surfing Institute</div>
             <div class="header-item__subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
         </div>
 
@@ -73,16 +78,16 @@
         <div class="wrapper">
             <div class="instructors__title title">Popular Instructors</div>
             <div class="instructors-items">
-                <div class="instructors-items__item">
+                <div class="instructors-items__item wow fadeInLeft">
 
-                    <div class="instructors-items__photo">
+                    <div class="instructors-items__photo ">
                         <img src="image/sea/img-4.jpg" alt="">
                     </div>
                     <div class="instructors__name">Simon Adward</div>
                     <div class="instructors__count">5,000 students</div>
 
                 </div>
-                <div class="instructors-items__item">
+                <div class="instructors-items__item wow fadeInUp">
 
                     <div class="instructors-items__photo">
                         <img src="image/sea/img-5.jpg" alt="">
@@ -91,7 +96,7 @@
                     <div class="instructors__count">4,350 students</div>
 
                 </div>
-                <div class="instructors-items__item">
+                <div class="instructors-items__item wow fadeInRight">
 
                     <div class="instructors-items__photo">
                         <img src="image/sea/img-6.jpg" alt="">
@@ -145,10 +150,17 @@
     </div>
     <footer class="footer">
         <div class="wrapper">
-            <div class="footer__content">
-
+            <div class="footer-content">
+                <div class="footer-content__left">
+                    <h2 class="footer-text">Beach Surfing</h2>
+                    <div class="footer-subtext">Copyright © 2018 All Rights Reserved.</div>
+                </div>
+                <div class="footer-content__right">
+                    <div class="footer-subtext">Designed by  Rikon Rahman</div>
+                </div>
             </div>
         </div>
     </footer>
+    
 </body>
 </html>
