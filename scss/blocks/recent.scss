@@ -1,0 +1,51 @@
+.recent{
+    .recent-block{
+        display: flex;
+        
+        
+        margin: 100px 0 180px 0;
+        &__left{
+            width: 50%;
+            
+        }
+        &__photo img{
+            width: 100%;
+
+        }
+        &__right{ 
+            padding: 40px 0 0 70px;
+            width: 50%;
+            
+        }
+        &__head{
+            font-size: 35px;
+
+        }
+        &__sometext{
+            margin-top: 35px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #888888;
+        }
+        &__btn{
+            margin-top: 60px;
+            border:1px solid #e5e5e5;
+            padding:20px 30px;
+            background-color: transparent;
+            cursor: pointer;
+            font-weight: 900;
+            transition: ease .8s;
+            &:hover,
+            &:focus,
+            &:active{
+                transform: scale(1.2);
+                box-shadow: 0 0 10px 0 #888888;
+            }
+        }
+        
+    }
+}
+.recent-block__right:nth-child(1){
+    padding: 0;
+    font-style: italic;
+}

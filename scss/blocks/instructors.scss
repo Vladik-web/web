@@ -1,0 +1,50 @@
+.title{
+    text-align: center;
+    letter-spacing: 0.6px;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+.wrapper{
+    max-width: 1050px;
+    margin: 0 auto 0 auto;
+}
+.instructors{
+    margin-bottom: 220px;
+    &__title{
+        padding: 220px 0 100px 0;
+    }
+    &-items{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        &__item{
+            transition: ease .3s;
+            width: 27.80%;
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 0 0 20px 0 #686868;
+            }
+        }
+        &__photo{
+            
+            text-align: center;}
+        &__photo img{
+            width: 100%;
+        }
+        
+    }
+    &__name{
+        padding-top: 30px;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        font-size: 30px;
+    }
+    &__count{
+        margin: 20px 0 20px 0;
+        text-align: center;
+        color: #38bc45;
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}

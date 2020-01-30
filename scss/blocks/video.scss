@@ -1,0 +1,60 @@
+.video{
+  
+    width: 280px;
+    
+    &__title{
+        font-size: 36px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+    }
+    &-item{
+        overflow: hidden;
+        position: relative;
+        margin-top: 35px;
+        
+    }
+
+    &__play{
+        width: 55px;
+        height: 55px;
+        border-radius: 50px;
+        background-color: #fff;
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -4px;
+            margin-top: -5.5px;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 5.5px solid transparent;
+            border-left: 8px solid #000;
+            border-bottom: 5.5px solid transparent;
+        }
+        transition: ease 1s;
+        &:hover{
+            transform: translateY(-10px) rotate(360deg);
+        }
+    }
+   
+   
+}
+.video-center{
+    position: relative;   
+}
+.video-center img{
+    width: 100%;
+}
+.video-item .video__play{
+    position: absolute;
+    left: -10px;
+    bottom: -15px;
+}
+.video-center .video__play{
+    position: absolute;
+    left:28px;
+    bottom: 32px;
+}

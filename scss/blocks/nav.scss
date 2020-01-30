@@ -1,0 +1,35 @@
+.nav-wrapper{
+    padding-top: 90px;
+    max-width: 1440px;
+ 
+ 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.nav{
+
+    &__link{
+        letter-spacing: 0.3px;
+        color: rgb(143, 143, 143);
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 70px;
+        text-decoration: none;
+        &:active,
+        &:hover,
+        &:focus,
+        &--active{
+            color: #111;
+            
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+    }   
+
+}

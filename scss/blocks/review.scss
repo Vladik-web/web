@@ -1,0 +1,44 @@
+.review{
+    width: 260px;
+
+    &__title{
+        font-size: 36px;
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+
+    }
+}
+
+.review-item{
+    margin-top: 30px;
+    border-bottom: 1px solid #c1c1c1;
+    position: relative;
+  
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -18px;
+        z-index: -1;
+        background:url('/image/koma.svg') no-repeat center;
+     
+        display: block;
+        width: 36px;
+        height: 29px;
+    }
+    &__text{
+        color: #a0a0a0;
+        font-style: italic;
+        line-height: 1.9;
+        
+    }
+    &__author{
+        line-height: 1.9;
+        padding: 10px 0 15px 0;
+        color: #111;
+        font-weight: 800;
+        &:before{
+            content: "- ";
+        }
+    }
+}

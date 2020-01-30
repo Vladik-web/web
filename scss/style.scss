@@ -1,0 +1,18 @@
+
+//libs, and so on
+@import "/css/normalize.css";//reset style's
+            
+            
+            /*Blocks*/
+@import "blocks/base.scss";
+@import "blocks/nav.scss";
+@import "blocks/header.scss";
+@import "blocks/review.scss";
+@import "blocks/video.scss";
+@import "blocks/instructors.scss";
+@import "blocks/recent.scss";
+@import "blocks/app.scss";
+@import "blocks/footer.scss";
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Playfair Display', serif;
+
