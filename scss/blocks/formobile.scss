@@ -67,6 +67,7 @@
         display: none;
     }
     .burger{
+        margin-right: 15px;
         display: block;
     }
     .recent .recent-block{
@@ -85,7 +86,19 @@
         padding-left: 15px;
     }
     .title{
+        font-size: 45px;
+    }
+    .instructors-items__item{
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .instructors-items__photo{
+        position: relative;
+        right: -15%;
+        width: 70%;
+    }
+    .header-item__text{
         font-size: 35px;
     }
-    
 }

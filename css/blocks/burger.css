@@ -1,0 +1,8 @@
+.burger {
+  display: none;
+}
+.burger__item {
+  width: 28px;
+  height: 2px;
+  background-color: #000;
+}
